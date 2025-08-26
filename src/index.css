@@ -56,6 +56,11 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/*  Tailwind Elemnts */
+.container {
+  @apply text-amber-300 sm:text-gray-500 md:text-red-500 lg:text-blue-500 xl:text-green-500 2xl:text-purple-500;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
