@@ -1,5 +1,5 @@
 import './App.css';
-import { VideoGame } from './types/VideoGame';
+import type { VideoGame } from './models/VideoGame';
 import VideoGameGrid from './videogames/VideoGameGrid';
 
 // logica de clases de tailwinds, orden:

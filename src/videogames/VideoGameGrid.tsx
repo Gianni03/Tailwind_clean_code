@@ -1,4 +1,4 @@
-import { VideoGame } from '../models/VideoGame';
+import type { VideoGame } from '../models/VideoGame';
 import GameItem from './GameItem';
 
 interface Props {
